@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#file{
+    width: 80px;
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 50px 20px;
+
+}
+    
+.video video{
+    width: 400px;
+    height: 200px;
+}
